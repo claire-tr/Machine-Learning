@@ -7,7 +7,7 @@
 //
 
 
-public class p1 {
+public class preprocess {
 
 	public static void main(String args[]) throws Exception
 	{
