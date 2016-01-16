@@ -4,11 +4,6 @@
 // Platform: MacOS
 // Language/Environment: java
 //
-// In accordance with the class policies and Georgetown's Honor Code,
-// I certify that, with the exceptions of the class resources and those
-// items noted below, I have neither given nor received any assistance
-// on this project.
-//
 
 public class DT extends Classifier implements OptionHandler{
 	static int x = 10;//x-fold cross validation
@@ -76,7 +71,7 @@ public class DT extends Classifier implements OptionHandler{
 			c.setCount(datasets[i]);
 			if(datasets[i].examples.size()==0)
 				c.setClassLable(node.getClassLable());// if there are no corresponding example for this value
-													// use the majority class label of the parent
+									// use the majority class label of the parent
 			node.addChild(c);	
 			build(c,datasets[i]);
 		}
