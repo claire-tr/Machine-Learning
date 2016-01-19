@@ -30,7 +30,7 @@ public class Attribute extends java.lang.Object {
 		{
 		String s = "";
 		for(int i = 0;i < domain.size();i++){ 
-			s+=domain.get(i)+" ";
+			s += domain.get(i)+" ";
 		}
 		return s;
 		}
