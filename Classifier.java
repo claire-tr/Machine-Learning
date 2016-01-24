@@ -1,4 +1,3 @@
-
 abstract public class Classifier {
 	int classify(Example e) throws Exception {
 		return 0;
@@ -14,4 +13,4 @@ abstract public class Classifier {
 	public void train(DataSet train) throws Exception {
 		// TODO Auto-generated method
 		}
-}
+	}
